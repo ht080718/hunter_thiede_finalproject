@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+   overflow-y: hidden;
+	width: 100vw;
+	
+}
+
+.container {
+width: 100%;
+	height:100%;
+
+  /* box shadow from https://shadows.brumm.af/ 
+  -webkit-box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow:      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow:           0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);*/
+ 
+}
+
+.card-layout{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+
+audio {
+position:relative;
+  z-index: 3;
+  width: 300px;
+    top:120px;
+    left: 15px; 
+}
+
+#output{
+	height:100vh;
+    width: auto;
+	position: absolute;
+	z-index: 1;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+
+
+#input {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+button,input,radio,select,input {
+	position: relative;
+	z-index: 7;
+}
+
+button{
+	left:25px;
+	top:150px;
+
+}
+
+span{
+	font-weight: bolder;
+}
+#playVid{
+	left: 25px;
+}
+#pauseVid{
+	left:80px;
+}
+#playVid, #pauseVid{
+	visibility: hidden;
+		position: absolute;
+}
+#title{
+	margin:0 auto;
+	left:40px;
+	top:25%;
+	font-size: 50pt;
+		position: relative;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+#credits{
+		margin:0 auto;
+	left:40px;
+	top:24%;
+	font-size: 20pt;
+		position: relative;
+	text-align: center;
+}
